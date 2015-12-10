@@ -100,17 +100,8 @@
 .slide-copy p {
   color: #959595;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.15em;
+  font-size: 1em;
   line-height: 1.75em;
-  margin-bottom: 15px;
-  margin-top: 16px;
-}
-
-.col-xs-5 p {
-  color: #959595;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: .75em;
-  line-height: 1em;
   margin-bottom: 15px;
   margin-top: 16px;
 }
