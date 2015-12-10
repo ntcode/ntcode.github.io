@@ -62,7 +62,7 @@
 }
 
 .slide {
-  background-color: #0000CC;
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
   background-size: cover;
   display: none;
   position: absolute;
@@ -140,14 +140,14 @@
 }
 
 .arrow-prev {
-  margin-right: 10px;
+  margin-right: 45px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
 }
 
 .arrow-next {
-  margin-left: 10px;
+  margin-left: 45px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
