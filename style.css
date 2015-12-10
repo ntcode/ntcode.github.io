@@ -140,14 +140,14 @@
 }
 
 .arrow-prev {
-  margin-right: 45px;
+  margin-right: 10px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
 }
 
 .arrow-next {
-  margin-left: 45px;
+  margin-left: 10px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
