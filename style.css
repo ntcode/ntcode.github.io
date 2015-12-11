@@ -22,16 +22,6 @@
   margin-top: 5px;
 }
 
-.menu > li {
-  display: inline;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.menu a {
-  color: #898989;
-}
-
 /* Dropdown */
 
 .dropdown-menu {
