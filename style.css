@@ -33,7 +33,7 @@
   border-bottom: 1px solid #ddd;
 }
 .slide {
-  background: transparent center center no-repeat;
+  background: transparent;
   background-size: cover;
   display: none;
   position: absolute;
