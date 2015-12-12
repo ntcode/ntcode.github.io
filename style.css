@@ -70,22 +70,23 @@
   background-image: transparent;
   height: 470px;
 }
-
-.slide-feature img {
-  margin-top: 112px;
-  margin-bottom: 28px;
+.slide-copy h1 {
+  color: #000000;  
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 550;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.slide-copy p {
+  color: #989898;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: .9em;
+  line-height: 1.65em;
+  margin-bottom: 8px;
+  margin-top: 9px;
 }
 
-.slide-feature a {
-  display: block;
-  color: #6fc5e0;
-  
-  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  
-  font-size: 20px;
-}
 /*navigation bar*/
 .slider-nav {
   text-align: center;
