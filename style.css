@@ -126,19 +126,19 @@
 
 /* App links */
 
-.get-app {
+.link {
   list-style: none;
   padding-bottom: 9px;
   padding-left: 0px;
   padding-top: 9px;
 }
 
-.get-app li {
+.link li {
   float: left;
   margin-bottom: 5px;
   margin-right: 5px;
 }
 
-.get-app img {
+.link img {
   height: 40px;
 } 
