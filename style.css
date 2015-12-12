@@ -70,7 +70,7 @@
   background-image: transparent;
   height: 470px;
 }
-.slide-copy h1 {
+.slide-feature h1 {
   color: #000000;  
   font-family: 'Pathway Gothic One', sans-serif;
   font-weight: 550;
@@ -78,7 +78,7 @@
   margin-top: 20px;
   margin-bottom: 0px;
 }
-.slide-copy p {
+.slide-feature p {
   color: #989898;
   font-family: Georgia, "Times New Roman", serif;
   font-size: .9em;
