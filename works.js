@@ -3,11 +3,11 @@ var main = function() {
     $('.dropdown-toggle').click(function() {
       $('.dropdown-menu').toggle(); 
 });
-    /*clicking forward arrow moves forward to next picture-slide & next-box, then starts back at first slide & box*/
+    /*clicking forward arrow moves forward to next picture-slide & next-dot, then starts back at first slide & dot*/
     $('.arrow-next').click(function() {
       var currentSlide = $('.active-slide');
       var nextSlide = currentSlide.next();
-      var currentBox = $('.active-Box');
+      var currentBox = $('.active-box');
       var nextBox = currentBox.next();
       
       if(nextSlide.length == 0) {
@@ -21,7 +21,7 @@ var main = function() {
       currentBox.removeClass('active-box');
       nextBox.addClass('active-box');
 });
-    /*clicking back arrow moves back to previous picture-slide & previous-box*/
+    /*clicking back arrow moves back to previous picture-slide & previous-dox*/
     $('.arrow-prev').click(function() {
       var currentSlide = $('.active-slide');
       var prevSlide = currentSlide.prev();
