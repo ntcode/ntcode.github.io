@@ -31,7 +31,7 @@ var main = function() {
       if(prevSlide.length == 0) {
         prevSlide = $('.slide').last();
 }
-      if(prevBox.length == 0) {
+      if(prevDot.length == 0) {
         prevDot = $('.dot').last();
 }
       currentSlide.fadeOut(600).removeClass('active-slide');
