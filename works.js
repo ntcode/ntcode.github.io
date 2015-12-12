@@ -14,7 +14,7 @@ var main = function() {
         nextSlide = $('.slide').first();
 }
       if(nextBox.length == 0) {
-        nextDox = $('.dot').first();
+        nextDot = $('.dot').first();
 }
       currentSlide.fadeOut(600).removeClass('active-slide');
       nextSlide.fadeIn(600).addClass('active-slide');
