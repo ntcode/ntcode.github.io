@@ -13,7 +13,7 @@ var main = function() {
       if(nextSlide.length == 0) {
         nextSlide = $('.slide').first();
 }
-      if(nextBox.length == 0) {
+      if(nextDot.length == 0) {
         nextDot = $('.dot').first();
 }
       currentSlide.fadeOut(600).removeClass('active-slide');
