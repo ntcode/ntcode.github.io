@@ -7,37 +7,37 @@ var main = function() {
     $('.arrow-next').click(function() {
       var currentSlide = $('.active-slide');
       var nextSlide = currentSlide.next();
-      var currentBox = $('.active-box');
-      var nextBox = currentBox.next();
+      var currentDot = $('.active-dot');
+      var nextDot = currentDot.next();
       
       if(nextSlide.length == 0) {
         nextSlide = $('.slide').first();
 }
       if(nextBox.length == 0) {
-        nextBox = $('.box').first();
+        nextDox = $('.dot').first();
 }
       currentSlide.fadeOut(600).removeClass('active-slide');
       nextSlide.fadeIn(600).addClass('active-slide');
-      currentBox.removeClass('active-box');
-      nextBox.addClass('active-box');
+      currentDot.removeClass('active-dot');
+      nextDot.addClass('active-dot');
 });
-    /*clicking back arrow moves back to previous picture-slide & previous-dox*/
+    /*clicking back arrow moves back to previous picture-slide & previous-dot*/
     $('.arrow-prev').click(function() {
       var currentSlide = $('.active-slide');
       var prevSlide = currentSlide.prev();
-      var currentBox = $('.active-box');
-      var prevBox = currentBox.prev();
+      var currentDot = $('.active-dot');
+      var prevDot = currentDot.prev();
       
       if(prevSlide.length == 0) {
         prevSlide = $('.slide').last();
 }
       if(prevBox.length == 0) {
-        prevBox = $('.box').last();
+        prevDot = $('.dot').last();
 }
       currentSlide.fadeOut(600).removeClass('active-slide');
       prevSlide.fadeIn(600).addClass('active-slide');
-      currentBox.removeClass('active-box');
-      prevBox.addClass('active-box');
+      currentDot.removeClass('active-dot');
+      prevDot.addClass('active-dot');
 });
 }
 $(document).ready(main); 
