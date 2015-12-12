@@ -61,13 +61,10 @@
   margin-bottom: 8px;
   margin-top: 9px;
 }
-
 .slide-img {
   text-align: center;
 }
-
 /* Slide feature */
-
 .slide-feature {
   text-align: center;
   background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
