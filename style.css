@@ -64,6 +64,7 @@ header .menu {
 }
 figure {
   text-align: center;
+  opacity:0.45;
 }
 /*navigation bar*/
 nav {
