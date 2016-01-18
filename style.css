@@ -4,7 +4,7 @@
 }
 /*header*/
 header {
-  background: linear-gradient(to bottom, #A0A0A0, white);
+  background: linear-gradient(to bottom, #F4A460, white);
   background-color: transparent;
   padding: 15px;
 }
@@ -67,7 +67,7 @@ figure {
 }
 /*navigation bar*/
 nav {
-  background: linear-gradient(to top, #A0A0A0, white);
+  background: linear-gradient(to top, #F4A460, white);
   text-align: center;
   margin-top: 20px;
 }
