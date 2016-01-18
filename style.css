@@ -5,7 +5,7 @@
 /*header*/
 header {
   background-color: transparent;
-  background: linear-gradient(to right, red, yellow);
+  background: linear-gradient(to right, red, white);
   border-bottom: 1px solid #ddd;
   padding: 15px;
 }
