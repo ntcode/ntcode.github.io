@@ -44,6 +44,7 @@ header .menu {
 }
 .active-slide {
     display: block;
+    background: linear-gradient(to right, red, yellow);
 }
 .slide-copy h1 {
   color: #000000;  
