@@ -3,13 +3,13 @@
   width: 960px;
 }
 /*header*/
-.header {
+header {
   background-color: transparent;
   border-bottom: 1px solid #ddd;
   padding: 15px;
 }
 /*bars*/ 
-.header .menu {
+header .menu {
   float: right;
   list-style: none;
   margin-top: 5px;
